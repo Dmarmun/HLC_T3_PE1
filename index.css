@@ -16,12 +16,12 @@ body {
   background-color: #f4f4f4;
 }
 .menu {
-  width: 10%;
+  width: 12%;
   height: 100%;
   margin: 0%;
   padding: 1%;
   display: grid;
-  text-align: left;
+  text-align: left; 
   background-color: #4476a8;
   padding: 1;
 }
