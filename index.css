@@ -2,5 +2,69 @@
     font-family: "Klee One", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
+}
+
+body {
+  font-family: "Klee One", cursive;
+  background-color: #f4f4f4;
+}
+.menu {
+  width: 10%;
+  height: 100%;
+  margin: 0%;
+  padding: 1%;
+  display: grid;
+  text-align: left;
+  background-color: #4476a8;
+  padding: 1;
+}
+
+.boton {
+  background-color:  #3498db;
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  transition: 0.3s;
+  background-color: #1abc9c;
+}
+
+.imagen {
+  border-radius: 5%;
+  width: 31%;
+  height: 31%;
+}
+
+table {
+  text-align: center;
+}
+
+.cabezatabla {
+  background-color: #1abc9c;
+  color: #f4f4f4;
+}
+
+form {
+  background-color: white;
+  padding: 2%;
+  box-shadow:  0 0px 0px 0.1px;
+  text-align: left;
+  border-radius: 1%;
+}
+.cuadro {
+  border-radius: 3%;
+  padding: 0.5%;
+  width: 98%;
+}

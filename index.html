@@ -16,10 +16,10 @@
     <button class="boton" id="btn2">Información</button>
     <button class="boton" id="btn3">Formulario</button>  
   </div>
-  <div id="tab1" class="tab" class="active">
+  <div id="tab1" class="tab active">
   <h1>Inicio</h1>
   <p>Hola mi nombre es David Martín Muñoz y esta es la Práctica Evaluable 1 de HLC.</p><br>
-  <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*XFKvzn30CglSpb3o"/>
+  <img class="imagen" src="https://miro.medium.com/v2/resize:fit:828/format:webp/0*XFKvzn30CglSpb3o"/>
   </div>
   <div id="tab2" class="tab">
   <h1>Información</h1>
@@ -55,7 +55,19 @@
   </h4>
   </div>
   <div id="tab3" class="tab">
-    
+    <h1>Formulario</h1>
+    <form id="formulario" onsubmit="alert('Formulario enviado.')">
+      <label for="nombre"><b>Nombre:</b></label><br>
+      <input class="cuadro" type="text" id="nombre" required minlength="3" maxlength="50" autocomplete="on" placeholder="Ingresa tu nombre"><br><br>
+  
+      <label for="email"><b>Correo electrónico:</b></label><br>
+      <input class="cuadro" type="email" id="email" autocomplete="on" placeholder="Ingresa tu correo" required><br><br>
+      
+      <label for="mensaje"><b>Mensaje:</b></label><br>
+      <textarea class="cuadro" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" rows="5"></textarea><br><br>
+
+      <input class="boton" type="submit" value="Enviar">
+    </form>
   </div>
   <!-- Fin contenido de la página -->
 
